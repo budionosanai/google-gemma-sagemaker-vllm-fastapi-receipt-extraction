@@ -64,4 +64,4 @@ You can see the instruction in [this file.](./INSTRUCTION.md)
 
 ## 🙏 Acknowledgments
 
-**Amazon Web Services (AWS), Google Gemma, vLLM, Terraform, FastAPI and Streamlit**
+**Amazon Web Services (AWS), Google Gemma, vLLM, Terraform, FastAPI, Streamlit and Claude for generate architecture**
