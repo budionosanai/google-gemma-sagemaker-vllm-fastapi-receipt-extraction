@@ -1,11 +1,11 @@
 ## 📋 Overview
 
-Before using receipt extraction, show several problems such as different receipt formats, repeated manual checks, multilingual receipts, and inconsistent output formats.
-This repository explains end-to-end receipt extraction use case that can extract structured and accurate information from receipt photo using Gemma 4 E4B-it model.
+Before using receipt extraction, there were several problems such as different receipt formats, repeated manual checks, multilingual receipts, and inconsistent output formats.
+This repository explain end-to-end receipt extraction case that can extract structured and accurate information from receipt photo using the Gemma 4 E4B-it model.
 
 ## 🏗️ Architecture
 
-![Receipt Extraction Architecture](./images/architecture.png)
+![Receipt Extraction Architecture](./images/receipt_extraction_aws_architecture.png)
 
 ## 🛠️ Tech Stack
 
@@ -49,10 +49,10 @@ You can see the instruction in [this file.](./INSTRUCTION.md)
 
 | AWS Service | Description |
 | :--- | :--- |
-| Amazon SageMaker AI | SageMaker Studio JupyterLab - ml.t3.medium - $0.05 per hour |
+| Amazon SageMaker AI | SageMaker Studio JupyterLab - ml.t3.medium - $0.05 per hour and $0.112 per GB |
 | Amazon SageMaker AI | SageMaker Real-time Inference (Endpoint) - ml.g6.2xlarge - $1.222 per hour |
-| Amazon ECR | $0.10 per GB |
-| Amazon ECS (Fargate)| $$0.04048 per vCPU per hour and $0.004445 per GB per hour |
+| Amazon ECR | $0.10 per GB per month |
+| Amazon ECS (Fargate) | $0.04048 per vCPU per hour and $0.004445 per GB per hour |
 | Application Load Balancer (ALB) | $0.0225 per hour and $0.008 per LCU-hour |
 | Amazon VPC | Interface VPC endpoint (AWS PrivateLink) - $0.01 per VPC endpoint per AZ per hour and and $0.01 per GB |
 | Amazon VPC | Gateway VPC endpoint (AWS PrivateLink) - $0.01 per VPC endpoint per AZ per hour and $0.0035 per GB |

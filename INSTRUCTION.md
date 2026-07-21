@@ -140,4 +140,4 @@ terraform destroy --auto-approve
 terraform destroy --auto-approve
 ```
 
-10. In SageMaker Studio JupyterLab, click "Stop space" and delete your SageMaker Studio domain.
+10. In SageMaker Studio JupyterLab, click "Stop space" and [delete your SageMaker Studio domain.](https://docs.aws.amazon.com/sagemaker/latest/dg/gs-studio-delete-domain.html#gs-studio-delete-domain-studio)
